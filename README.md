@@ -1,6 +1,7 @@
 # Helpful Review Predictor
 - A supervised machine learning project that classifies the helpfulness of product reviews using a Random Forest model.
 - Includes data preprocessing, feature engineering, model tuning (using GridSearchCV), model comparison (logistic regression v.s. random forest), and performance evaluation (based on accuracy, precision, recall, confusion matrices, roc, and auc).
+---
 - Trained on the bookReviewsData.csv data set which contains two columns:
     - ```Review```: the review text
     - ```Helpful Review```: binary label (1 = helpful, 0 = not helpful)
